@@ -1,0 +1,20 @@
+.header {
+    background-color: #262d31;
+    height: 60px;
+    width: 100%;
+}
+
+.headimg {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.header .row{
+    height: 100%;
+    margin-left: 10px;
+}
+
+.header .col-1{
+    margin: auto auto;
+}

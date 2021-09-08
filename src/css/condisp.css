@@ -1,0 +1,99 @@
+.sect {
+  position: absolute;
+  left: 30%;
+  height: 100%;
+  width: 70%;
+  background-image: linear-gradient(
+      rgba(13, 20, 24, 0.5),
+      rgba(13, 20, 24, 0.5)
+    ),
+    url("https://i.pinimg.com/originals/58/c3/33/58c33377dfcbb3022493dec49d098b02.jpg");
+  background-position: center;
+  background-size: contain;
+  align-self: center;
+  color: #eee;
+}
+
+.sect .topBar {
+  width: 100%;
+  height: 60px;
+  background-color: #262d31;
+  margin: 0;
+  padding: 10px;
+}
+
+.sect .topBar .imag {
+  max-width: 60px;
+}
+
+.sect .topBar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: auto auto;
+}
+
+.sect .topBar .texts {
+  min-width: 400px;
+}
+
+.sect .topBar .texts h6 {
+  font-size: 18px;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+.sect .topBar .texts p {
+  font-size: 11px;
+  color: #999;
+  margin: 0;
+  font-weight: 500;
+}
+
+.sect .topBar .icons {
+  max-width: 70px;
+  text-align: end;
+  margin: auto auto;
+}
+
+.sect .bottomBar {
+  width: 100%;
+  height: 70px;
+  background-color: #1e2428;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  bottom: 1px;
+}
+
+.sect .bottomBar .icons {
+  max-width: 50px;
+  text-align: center;
+  margin: auto auto;
+}
+
+.sect .bottomBar .input {
+  margin: auto auto;
+}
+
+.sect .bottomBar .input input {
+  font-size: 15px;
+  width: 100%;
+  padding-right: 0;
+  border-radius: 50px;
+  padding: 10px 10px 10px 25px;
+  margin: auto auto;
+  background: #323739;
+  border: none;
+  color: #eee;
+}
+
+.sect .bottomBar .input input:focus {
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.sect .bottomBar .bi-paperclip {
+  transform: rotate(45deg);
+}

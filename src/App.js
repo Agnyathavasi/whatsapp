@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Contacts from './components/contacts';
+import MainPage from './components/mainsection';
+import { useState } from 'react';
 
 function App() {
+
+  const [displaying,setDisplaying] = useState(0)
+
+  function handle(id){
+    setDisplaying(id);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Contacts onSelect={handle}/>
+      <MainPage toDisplay={displaying}/>
     </div>
   );
 }
