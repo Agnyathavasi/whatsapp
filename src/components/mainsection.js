@@ -5,7 +5,7 @@ import Condisp from "./ConDisp";
 
 function MainPage(props) {
 
-  let [disp, setDisp] = useState(0);
+  let [disp] = useState(0);
 
   disp = props.toDisplay;
 
