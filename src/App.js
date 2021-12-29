@@ -13,8 +13,12 @@ function App() {
 
   return (
     <div className="App">
-      <Contacts onSelect={handle}/>
-      <MainPage toDisplay={displaying}/>
+      <div className="left">
+        <Contacts onSelect={handle}/>
+      </div>
+      <div className="right">
+        <MainPage toDisplay={displaying}/>
+      </div>
     </div>
   );
 }

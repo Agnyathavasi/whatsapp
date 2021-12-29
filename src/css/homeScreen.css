@@ -1,9 +1,6 @@
 .section{
-    position: absolute;
     background-color: #262d31;
-    left: 30%;
     height: 100%;
-    width: 70%;
     border-bottom: 7px solid teal;
     text-align: center;
     align-self: center;

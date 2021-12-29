@@ -5,7 +5,7 @@ const cont = [
         seen:"false",
         sent:"false",
         recieved:"true",
-        message:"Macha Neen Badukbeka",
+        message:"Here is sample msg One",
         time:"16:19",
         img:"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid:MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib:rb-1.2.1&w:1000&q:80"
     },
@@ -15,7 +15,7 @@ const cont = [
         seen:"false",
         sent:"true",
         recieved:"false",
-        message:'Hey actually ee pic nal maathra braces bandide',
+        message:'Here is sample msg Two',
         time:"16:18",
         img:"https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixid:MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWF8ZW58MHx8MHx8&ixlib:rb-1.2.1&w:1000&q:80"
     },
@@ -25,7 +25,7 @@ const cont = [
         seen:"false",
         sent:"true",
         recieved:"false",
-        message:"Loooooo en gotta, Thika thara aaithu ivattu",
+        message:"Here is sample msg Three",
         time:"Yesterday",
         img:"https://images.unsplash.com/photo-1463592177119-bab2a00f3ccb?ixid:MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib:rb-1.2.1&auto:format&fit:crop&w:750&q:80"
     },
@@ -35,7 +35,7 @@ const cont = [
         seen:"true",
         sent:"false",
         recieved:"false",
-        message:"Maga next level ley... Heavy!!!",
+        message:"Here is sample msg Four",
         time:"Yesterday",
         img:"https://images.unsplash.com/photo-1479813183133-f2e9b38ed6c4?ixid:MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib:rb-1.2.1&auto:format&fit:crop&w:710&q:80"
     },
@@ -45,7 +45,7 @@ const cont = [
         seen:"false",
         sent:"false",
         recieved:"true",
-        message:"Shata looooo bramhana... yeno nin maathu",
+        message:"Here is sample msg Five",
         time:"Yesterday",
         img:"https://images.unsplash.com/photo-1489993360877-883980cc7333?ixid:MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib:rb-1.2.1&auto:format&fit:crop&w:750&q:80"
     },
@@ -85,7 +85,7 @@ const cont = [
         seen:"false",
         sent:"false",
         recieved:"true",
-        message:"Rii nim shimoga na nodbeku antha nang sikkapatte ishta",
+        message:"Hello im already there",
         time:"9/1/21",
         img:"https://images.unsplash.com/photo-1630170140267-c90fd88ee26c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     },
