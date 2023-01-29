@@ -6,8 +6,12 @@
     border-right: 1px solid #444;
 }
 
+.screen-header {
+    height: 14vh
+}
+
 .displayContacts{
-    max-height: 621px;
+    max-height: 86vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
