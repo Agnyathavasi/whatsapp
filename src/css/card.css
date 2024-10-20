@@ -24,29 +24,18 @@
     
 }
 
-.card_con .body {
-    margin-left: -10px;
-}
-
 .card_con .body .top{
-    width: max-content;
+    width: 100%;
     margin-top: 10px;
     display: flex;
+    justify-content: space-between;
     color: #f1f1f1;
-    position: relative;
 }
 
 .card_con .body .name {
-    flex: 1;
     font-size: 1.1rem;
     font-weight: 400;
     margin-bottom: 0;
-}
-
-.card_con .body span{
-    position: absolute;
-    left: 320px;
-    text-align: end;
 }
 
 .card_con .body .time {

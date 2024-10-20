@@ -8,19 +8,21 @@ import cont from "./arrayCon";
 
 function Contacts(props) {
 
-  function presseditem(id){
-    props.onSelect(id+1);
+  function presseditem(id) {
+    props.onSelect(id + 1);
   }
 
   let array = cont;
   return (
     <div className="screen">
-      <ConHead />
-      <SearchBar />
+      <div className="screen-header">
+        <ConHead />
+        <SearchBar />
+      </div>
       <div className="displayContacts">
         {array.map((item, index) => {
           let image
-          item.img ==="" ? image=imag : image = item.img
+          item.img === "" ? image = imag : image = item.img
           return (<div className="itemContact">
             <Card
               id={index}

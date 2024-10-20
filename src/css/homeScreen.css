@@ -4,11 +4,13 @@
     border-bottom: 7px solid teal;
     text-align: center;
     align-self: center;
+    justify-content: center;
     color: #eee;
 }
-
+.section .content {
+    padding: 10%;
+}
 .section img {
-    margin-top: 3em;
     width: 400px;
     height: 400px;
     border-radius: 50%;
