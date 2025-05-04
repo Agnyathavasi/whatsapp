@@ -1,0 +1,82 @@
+.message {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.message .sent {
+  margin-left: auto;
+  max-width: 50%;
+  min-width: 20%;
+  width: fit-content;
+  background-color: #054640;
+  margin-right: 10px;
+  margin-top: 8px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.message .received {
+  max-width: 50%;
+  min-width: 20%;
+  width: fit-content;
+  background-color: #212e36;
+  margin-left: 10px;
+  margin-top: 8px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.message .content {
+  word-wrap: break-word;
+  white-space: initial;
+}
+
+.message .sent:after,
+.message .received:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  border-right: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-left: 15px solid white; /* Triangle color */
+}
+
+.message .received:before {
+  transform: rotate(270deg);
+  bottom: 10px;
+  left: -4px;
+  border-left-color: #212e36;
+}
+
+.message .sent:after {
+  right: -14px;
+  z-index: 0;
+  bottom: 10px;
+  border-left-color: #054640;
+}
+
+.message .bottomInfo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.message .bottomInfo .read-status {
+  margin-top: auto;
+  height: 15px;
+}
+
+.message .bottomInfo svg {
+  z-index: 1;
+}
+
+.message .bottomInfo .sent-time {
+  color: rgb(135, 141, 138) !important;
+  font-size: 12px;
+  height: 100%;
+  margin-right: 5px;
+}

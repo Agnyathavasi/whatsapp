@@ -1,8 +1,6 @@
 .sect {
-  position: absolute;
-  left: 30%;
   height: 100%;
-  width: 70%;
+  width: 100%;
   background-image: linear-gradient(
       rgba(13, 20, 24, 0.5),
       rgba(13, 20, 24, 0.5)
@@ -10,7 +8,9 @@
     url("https://i.pinimg.com/originals/58/c3/33/58c33377dfcbb3022493dec49d098b02.jpg");
   background-position: center;
   background-size: contain;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   color: #eee;
 }
 
@@ -19,28 +19,31 @@
   height: 60px;
   background-color: #262d31;
   margin: 0;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sect .topBar .imag {
-  max-width: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .sect .topBar img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: auto auto;
+  margin: 0 15px;
 }
 
 .sect .topBar .texts {
-  min-width: 400px;
+  flex-grow: 1;
 }
 
 .sect .topBar .texts h6 {
   font-size: 18px;
-  margin-bottom: 2px;
   font-weight: 500;
+  margin: 0 !important;
 }
 
 .sect .topBar .texts p {
@@ -51,44 +54,49 @@
 }
 
 .sect .topBar .icons {
-  max-width: 70px;
-  text-align: end;
-  margin: auto auto;
+  margin: 0 10px;
+}
+
+.sect .message-canvas {
+  height: calc(100vh - 60px - 70px);
 }
 
 .sect .bottomBar {
-  width: 100%;
+  width: calc(100vw - 30%);
   height: 70px;
+  position: fixed;
   background-color: #1e2428;
   margin: 0;
-  padding: 10px;
-  position: absolute;
-  bottom: 1px;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
 }
 
 .sect .bottomBar .icons {
-  max-width: 50px;
   text-align: center;
-  margin: auto auto;
+  margin: auto 15px;
+  cursor: pointer;
 }
 
 .sect .bottomBar .input {
   margin: auto auto;
+  flex-grow: 1;
+  overflow-x: hidden;
 }
 
-.sect .bottomBar .input input {
-  font-size: 15px;
-  width: 100%;
-  padding-right: 0;
+.sect .bottomBar .input {
+  font-size: 13px;
+  height: 35px;
+  margin: 0 10px;
+  padding: 0 10px;
   border-radius: 50px;
-  padding: 10px 10px 10px 25px;
-  margin: auto auto;
   background: #323739;
   border: none;
   color: #eee;
 }
 
-.sect .bottomBar .input input:focus {
+.sect .bottomBar input:focus {
   border: none;
   text-decoration: none;
   outline: none;

@@ -1,0 +1,25 @@
+.barSearch {
+  width: 100%;
+  height: 65px;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbar {
+  width: 100%;
+  height: 25px;
+  border-radius: 50px;
+  padding: 0 15px !important;
+  margin: 0 20px !important;
+  background: #323739;
+  border: none;
+  color: #eee;
+}
+
+.searchbar:focus {
+  border: none;
+  text-decoration: none;
+  outline: none;
+}

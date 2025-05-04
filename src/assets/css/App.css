@@ -1,0 +1,12 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  display: flex;
+}
+.App .left {
+  width: 30%;
+}
+.App .right {
+  width: 70%;
+}
